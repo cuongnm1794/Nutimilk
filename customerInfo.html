@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutiMilk Landing page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./font/icofont.min.css" />
+  </head>
+  <body>
+    <div class="background">
+      <img src="./images/section1_bg.png" alt="" />
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <img class="header__logo" src="./images/logo.png" alt="Logo" />
+      </div>
+    </header>
+
+    <main>
+      <section class="heading-primary">
+        <div class="container">
+          <h1 class="heading-primary--main">
+            Thông tin<br />
+            khách hàng
+          </h1>
+          <span class="heading-primary--sub"
+            >Vui lòng nhập đầy đủ thông tin <br />
+            để nhận mã voucher đổi quà</span
+          >
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="container">
+          <form action="#" class="customer-form">
+            <div class="form__group">
+              <label for="name" class="form__label"
+                >Tên khách hàng
+                <span class="form__label--required">*</span></label
+              >
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Tên khách hàng"
+                id="name"
+                required=""
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="name" class="form__label"
+                >Điện thoại <span class="form__label--required">*</span></label
+              >
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Điện thoại"
+                id="name"
+                required=""
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="name" class="form__label"
+                >Địa chỉ <span class="form__label--required">*</span></label
+              >
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Địa chỉ"
+                id="name"
+                required=""
+              />
+            </div>
+
+            <div class="form__group">
+              <label for="name" class="form__label"
+                >Quận <span class="form__label--required">*</span></label
+              >
+              <select name="" id="" class="form__select">
+                <option value="1">Quận 1</option>
+                <option value="2">Quận 2</option>
+                <option value="3">Quận 3</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <label for="name" class="form__label"
+                >Thành phố <span class="form__label--required">*</span></label
+              >
+              <select name="" id="" class="form__select">
+                <option value="HCM">TP HCM</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <div class="form__checkbox-group">
+                <input
+                  type="checkbox"
+                  name=""
+                  class="form__checkbox-input"
+                  id="agree"
+                />
+                <label for="agree" class="form__checkbox-label"
+                  >Tôi xác nhận những thông tin trên là chính xác</label
+                >
+              </div>
+            </div>
+
+            <div class="form__group text-center">
+              <a
+                href="#popupConfirm"
+                class="btn btn--red btn__customer--confirm"
+              >
+                <i class="icofont-double-right"></i> Xác nhận
+                <i class="icofont-double-left"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <img src="./images/Nutri 1.png" class="footer__logo" alt="" />
+
+        <div class="footer__brand">
+          CÔNG TY CP THỰC PHẨM DINH DƯỠNG NUTIFOOD
+        </div>
+        <div class="footer__info">
+          Tổng đài tư vấn: <b>028 38 255 777</b> • ĐT:
+          <b>(+84-8) 38 267 999</b> • ĐT: <b>(+84-8) 39 435 949</b> <br />
+          EMAIL: nutifood@nutifood.com.vn <br />
+          Trụ sở: 281- 283 Hoàng diệu, phường 6, quận 4, tp. hồ chí minh
+        </div>
+
+        <a href="#" class="footer__condition"
+          >Thể lệ và điều kiện áp dụng chương trình</a
+        >
+
+        <div class="footer__social">
+          <a href="#" class="social__item">
+            <img src="./images/facebook_icon.png" class="social__logo" alt="" />
+            <span>Facebook</span>
+          </a>
+
+          <a href="#" class="social__item">
+            <img src="./images/youtube_icon.png" class="social__logo" alt="" />
+            <span>Youtube</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup popup--confirm" id="popupConfirm">
+      <div class="popup__main">
+        <a href="#" class="popup__button">
+          <i class="icofont-error"></i>
+        </a>
+        <div class="popup__content">
+          <p class="heading-primary--main">Xác nhận thông tin</p>
+
+          <div class="popup__info--box">
+            <div class="popup__info--group">
+              <span>Tên khách hàng</span>
+              <b>Nguyễn Văn Anh</b>
+            </div>
+
+            <div class="popup__info--group">
+              <span>Điện thoại</span>
+              <b>098 1237 999</b>
+            </div>
+
+            <div class="popup__info--group">
+              <span>Địa chỉ</span>
+              <b>35 Lê Thánh Tôn</b>
+            </div>
+
+            <div class="popup__info--group">
+              <span>Quận</span>
+              <b>1</b>
+            </div>
+
+            <div class="popup__info--group">
+              <span>Thành Phố</span>
+              <b>Tp. Hồ Chí Minh</b>
+            </div>
+          </div>
+
+          <i class="popup__info"
+            >*Vui lòng lưu lại tin nhắn được gửi đến SĐT đăng ký để đổi quà tại
+            Ngôi nhà dinh dưỡng.</i
+          >
+        </div>
+
+        <div class="form__group text-center">
+          <a
+            href="#popup2"
+            class="btn btn--red btn__customer--confirm btn-no--border"
+          >
+            <i class="icofont-double-right"></i> Xác nhận
+            <i class="icofont-double-left"></i>
+          </a>
+        </div>
+
+        <div class="form__group text-center">
+          <a
+            href="#"
+            class="btn btn__customer--confirm btn--back btn-no--border"
+          >
+            Quay lại
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup__main">
+        <a href="#" class="popup__button">
+          <i class="icofont-error"></i>
+        </a>
+        <div class="popup__content">
+          <div class="popup__content--title">
+            Chúc mừng bạn đã nhận được quà tặng là:
+          </div>
+
+          <p class="heading-primary--main">Giải đặc biệt</p>
+
+          <span class="text--gift--amount">01 Thùng</span>
+          <div class="text--gift--info">
+            Nutimilk Sữa chua trân châu đường đen - Hộp 100g
+          </div>
+
+          <div class="img__gift">
+            <img
+              src="./images/THÙNG 180ML SLIM LEAF MASTER 3.png"
+              alt="THÙNG 180ML SLIM LEAF MASTER 3"
+            />
+          </div>
+
+          <div class="form__group text-center">
+            <a
+              href="#popup"
+              class="btn btn--red btn__customer--confirm btn-no--border"
+            >
+              <i class="icofont-double-right"></i> Nhận quà ngay
+              <i class="icofont-double-left"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup" id="popup2">
+      <div class="popup__main">
+        <a href="#" class="popup__button">
+          <i class="icofont-error"></i>
+        </a>
+        <div class="popup__content">
+          <p class="heading-primary--main">
+            Mã voucher nhận thưởng cửa bạn là:
+          </p>
+          <div class="popup__content--title popup__code">FJDHFLSLC</div>
+
+          <a href="#" class="popup__link--store"
+            >Xem danh sách cửa hàng gần nhất</a
+          >
+
+          <div class="form__group text-center">
+            <a
+              href="#popup"
+              class="btn btn--red btn__customer--confirm btn--back btn-no--border"
+            >
+              Quay lại
+            </a>
+          </div>
+
+          <i class="popup__info"
+            >*Vui lòng lưu lại tin nhắn được gửi đến SĐT đăng ký để đổi quà tại
+            Ngôi nhà dinh dưỡng.</i
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
