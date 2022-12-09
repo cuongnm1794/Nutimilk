@@ -1,0 +1,46 @@
+@media screen and (min-width: 768px) {
+  .header {
+    margin-top: 48px;
+    display: block;
+  }
+
+  .slogan {
+    margin-top: -109px;
+  }
+
+  .slogan__image-bg--1 {
+    margin-top: 60px;
+  }
+
+  .slogan__image-bg--2 {
+    bottom: 90px;
+  }
+
+  .slogan__image {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .slogan__image:last-child {
+    margin-top: -80px;
+  }
+
+  .background img {
+    height: 120vh;
+  }
+
+  .form-section {
+    padding-bottom: 450px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .form-section {
+    background-size: cover;
+    padding-bottom: 450px;
+  }
+  main {
+    margin-top: -109px;
+    margin-bottom: -200px;
+  }
+}

@@ -274,6 +274,7 @@ html {
   left: 51.8%;
   transform: translateX(-50%);
   bottom: 16.5%;
+  width: 25%;
 }
 
 /* Info */
@@ -380,7 +381,7 @@ html {
 .store_list {
   padding-top: 10px;
   margin-bottom: 20px;
-  background-image: url(./images/plash\ 1.png);
+  background-image: url(../images/plash\ 1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -534,7 +535,7 @@ html {
 }
 
 .form-section {
-  background-image: url(./images/plash\ 1.png);
+  background-image: url(../images/plash\ 1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -619,7 +620,7 @@ html {
 }
 
 .popup__main {
-  background-image: url(./images/section1_bg.png);
+  background-image: url(../images/section1_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;

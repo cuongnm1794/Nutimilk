@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NutiMilk Landing page</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/style_pc.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +18,7 @@
   </head>
   <body>
     <div class="background">
-      <img src="./images/section1_bg.png" alt="" />
+      <img src="./images/section1_bg.png" id="background__img" alt="" />
     </div>
 
     <div class="navigation">
@@ -45,7 +46,15 @@
 
     <header class="header">
       <div class="container">
-        <img class="header__logo" src="./images/logo.png" alt="Logo" />
+        <div class="header__logo-box">
+          <img
+            class="header__logo"
+            srcset="./images/Logo_PC.png 980w"
+            src="./images/logo.png"
+            alt="Logo"
+          />
+          <div></div>
+        </div>
       </div>
     </header>
 
@@ -54,34 +63,49 @@
         <div class="slogan__images clearfix">
           <img
             src="./images/NUTI04 1.png"
+            srcset="./images/NUTI04_1PC.png 980w"
             class="slogan__image-bg slogan__image-bg--1"
             alt=""
           />
           <img
             src="./images/NUTI05 1.png"
+            srcset="./images/NUTI05_1PC.png 980w"
             class="slogan__image-bg slogan__image-bg--2"
             alt=""
           />
-          <img src="./images/NUTI02 1.png" class="slogan__image" alt="" />
-          <img src="./images/nutri06 1.png" class="slogan__image" alt="" />
+
+          <img
+            src="./images/NUTI02 1.png"
+            srcset="./images/NUTI02_PC.png 980w"
+            class="slogan__image"
+            alt=""
+          />
+          <img
+            src="./images/nutri06 1.png"
+            srcset="./images/nutri06_1PC.png 980w"
+            class="slogan__image"
+            alt=""
+          />
         </div>
 
         <div class="product">
-          <img src="./images/sp 1.png" alt="" />
+          <img src="./images/sp_1PC.png" alt="" />
         </div>
       </div>
     </section>
 
-    <section class="qrcode">
+    <section class="qrcode" id="qrcode">
       <div class="container">
         <div class="qrcode-box">
           <img
             src="./images/nuti07 1.png"
+            srcset="./images/nuti07_1PC.png 980w"
             class="qrcode-box__img qrcode-box__img--background"
             alt=""
           />
           <img
             src="./images/qr-code-1-KMTower.png"
+            srcset="./images/qr-code-1-KMTowerPC.png 980w"
             class="qrcode-box__img qrcode-box__img--qr"
             alt=""
           />
@@ -151,7 +175,7 @@
           <b>Bước 1:</b> Khách hàng scan QR code hiện ra tại màn hình quảng cáo
           frame 10s tại các chung cư có quảng cáo theo danh sách sau:
 
-          <img src="./images/image 1.png" alt="" />
+          <img src="./images/image_1PC.png" alt="" />
 
           <b>Bước 2:</b> Sau khi scan QR, Khách hàng được dẫn về trang chương
           trình và nhận ngẫu nhiên các phần quà. Để xác nhận nhận quà , Khách
@@ -164,7 +188,7 @@
           Khi đổi quà, khách hàng phải show được tin nhắn SMS xác nhận trúng
           thưởng để Nhân viên NNDD đối chiếu khi trao quà.
 
-          <img src="./images/image 2.png" alt="" />
+          <img src="./images/image_2PC.png" alt="" />
 
           <h4>III. Quy định khác</h4>
           Tên của các thương nhân cùng thực hiện khuyến mại, nội dung tham gia
@@ -312,5 +336,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

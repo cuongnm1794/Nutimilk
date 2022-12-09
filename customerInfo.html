@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NutiMilk Landing page</title>
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style_PC.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,12 +20,20 @@
   </head>
   <body>
     <div class="background">
-      <img src="./images/section1_bg.png" alt="" />
+      <img src="./images/section1_bg.png" id="background__img" alt="" />
     </div>
 
     <header class="header">
       <div class="container">
-        <img class="header__logo" src="./images/logo.png" alt="Logo" />
+        <div class="header__logo-box">
+          <img
+            class="header__logo"
+            srcset="./images/Logo_PC.png 980w"
+            src="./images/logo.png"
+            alt="Logo"
+          />
+          <div></div>
+        </div>
       </div>
     </header>
 
@@ -135,7 +144,7 @@
 
     <!-- Footer -->
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="container">
         <img src="./images/Nutri 1.png" class="footer__logo" alt="" />
 
@@ -166,6 +175,7 @@
         </div>
       </div>
     </footer>
+    <script src="./scripts/script.js"></script>
 
     <div class="popup popup--confirm" id="popupConfirm">
       <div class="popup__main">
