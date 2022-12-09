@@ -678,6 +678,8 @@ html {
 
 .img__gift {
   margin-top: 32px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-no--border {
