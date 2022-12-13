@@ -196,7 +196,7 @@ html {
 .navigation__list {
   margin: 32px;
   list-style: none;
-  color: rgb(255,255,255);;
+  color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 1.7rem;
   text-align: right;
@@ -225,6 +225,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header__logo {
+  max-width: 241px;
 }
 
 /* Slogan */
@@ -320,7 +324,7 @@ html {
 .rule__icon {
   margin: 0 auto;
   display: inline-block;
-  background-color: rgb(255,255,255);;
+  background-color: rgb(255, 255, 255);
   padding: 16px;
   border-radius: 50%;
   margin-bottom: 24px;
@@ -342,7 +346,7 @@ html {
 .rule-content {
   text-align: left;
   margin-top: 24px;
-  background-color: rgb(255,255,255);;
+  background-color: rgb(255, 255, 255);
   padding: 29px 20px;
   border-radius: 16px;
   font-size: 14px;
@@ -356,7 +360,7 @@ html {
   padding: 12px 16px;
   font-weight: bold;
   font-size: 14px;
-  background-color: rgb(255,255,255);;
+  background-color: rgb(255, 255, 255);
   border-radius: 90px;
   border: 2px solid #e6e8ec;
   color: black;
@@ -389,7 +393,7 @@ html {
   margin-top: 25px;
   border-spacing: 0;
   overflow-x: auto;
-  rgb(255,255,255);-space: nowrap;
+  background: rgb(255, 255, 255);
   border: 2px solid #e6e8ec;
   border-top-left-radius: 11px;
   border-top-right-radius: 11px;
@@ -425,7 +429,7 @@ html {
   font-size: 1.6rem;
   font-weight: bold;
   background-color: #286292;
-  color: rgb(255,255,255);;
+  color: rgb(255, 255, 255);
 }
 
 .store-list__table th:first-child {
@@ -786,4 +790,59 @@ html {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* PAGE Store  */
+
+.form__filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.store-list-section .form__select {
+  max-width: 260px;
+  margin-top: 0;
+  margin-left: 12px;
+}
+
+.store-list-section span {
+  font-size: 1.8rem;
+}
+
+.store-list__table--page {
+  max-height: 797px;
+  overflow-y: scroll;
+  margin-top: 48px;
+  padding-right: 2px;
+}
+
+.store-list__table--page table {
+  margin-top: 0;
+}
+
+.custome-scroolbar::-webkit-scrollbar {
+  width: 4px;
+  margin-left: 2px;
+  background-color: transparent;
+}
+
+.custome-scroolbar::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  margin-left: 2px;
+  background: rgb(255, 255, 255);
+}
+
+.rule-content--page.rule-content {
+  max-height: 1393px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 48px;
+  padding: 0;
+  padding-right: 2px;
+  background: transparent;
+}
+
+.rule-content--page.rule-content > div {
+  padding: 29px 20px;
 }
