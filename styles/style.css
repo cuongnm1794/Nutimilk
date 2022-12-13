@@ -683,7 +683,13 @@ html {
   font-size: 24px;
 }
 
+.popup__content {
+  text-align: center;
+}
+
 .popup__content--title {
+  display: inline-block;
+  margin: 0 auto;
   padding: 8px 16px;
   border-radius: 32px;
   background-color: rgb(255, 255, 255);
@@ -723,8 +729,10 @@ html {
 
 .popup__code {
   margin: 20px;
-  padding: 20px;
+  padding: 20px 32px;
   font-size: 20px;
+  background-color: rgb(255, 255, 255 / 50%);
+  border-radius: 24px;
 }
 
 .btn--back {

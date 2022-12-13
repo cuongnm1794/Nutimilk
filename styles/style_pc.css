@@ -1,7 +1,5 @@
 @media screen and (max-width: 768px) {
   .popup__content--title {
-    background-color: transparent;
-    padding: 0;
   }
 
   .popup__content--box {
@@ -103,8 +101,6 @@
 
   .popup__content--title {
     font-size: 2rem;
-    background-color: transparent;
-    padding: 0;
   }
 
   .popup__content--box {
