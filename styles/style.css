@@ -628,6 +628,7 @@ html {
   margin: 0 auto;
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 10%);
   border-radius: 16px;
+  width: 176px;
 }
 
 .btn__customer--confirm:hover {
@@ -654,7 +655,7 @@ html {
 
 .popup__main {
   max-width: 720px;
-  background-image: url(../images/NUTI01_1.png);
+  background-image: url(../images/14.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -798,6 +799,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 48px;
 }
 
 .store-list-section .form__select {
