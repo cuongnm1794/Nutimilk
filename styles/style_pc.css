@@ -172,4 +172,8 @@
   .arrow-up {
     right: 18%;
   }
+  .btn__customer--confirm {
+    width: 391px;
+    font-size: 28px;
+  }
 }
